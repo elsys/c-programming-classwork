@@ -77,7 +77,7 @@ int remove_elem(struct list_t *list) {
 	if(removed == NULL) {
 		return -1;
 	}
-	int element = removed->value;val
+	int element = removed->value;
 
 	list->head = removed->next;
 
